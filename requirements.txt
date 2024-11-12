@@ -7,6 +7,6 @@ MarkupSafe==2.1.5
 Werkzeug==3.0.1
 Flask==2.2.3
 flask-cors==5.0.0
-langchain==0.0.187
-langchain-google-genai==2.0.0
+langchain==0.2.11
+langchain-google-genai==1.0.8
 
