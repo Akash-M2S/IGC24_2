@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Set your Google API Key (ensure it's set up properly in your environment)
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC14gcwPiQaxHlnTahD3QI9v_wYmfaDH44"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyBdSjDXgh6i3ojwEskmigar4412yD-PjgM"
 
 # Initialize Google Gemini client using Langchain's ChatGoogleGenerativeAI
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro", temperature=0.1)
